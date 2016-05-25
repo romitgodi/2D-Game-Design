@@ -1,0 +1,24 @@
+Name: Romit Godi
+Clemson Email Address: rgodi@clemson.edu
+
+Project no: 4
+Project due date: Nov, 13th 8:00 am
+
+Project description: The project involves implementing the painter's algorithm, parallax scrolling, player movements and HUD.
+
+
+Sprite implementation:
+Background - source: http://www.tophdgallery.com/2d-backgrounds-for-games.html
+Contra - source: http://www.spriters-resource.com/nes/contra/
+Foreground - source: http://hugoware.net/design/game-background
+Clouds - source: http://forums.gamesalad.com/discussion/43406/i-need-help-with-backgrounds
+
+Requirement summary:
+1. Implemented painter's algorithm by creating a new scaled class and fireball sprite from Contra game
+2. Implemented parallax scrolling using three different background sprites
+3. Implemented contra player  movement
+4. Implemented HUD which can be toggled
+
+Final Project:
+The game would involve the contra player scrolling horizontally and shooting enemies. Movements such as jumping will be added further. Enemies will be approaching from the opposite direction and also have shooting capability along with AI. A special feature where the bullet type changes as the game advances will be implemented.
+

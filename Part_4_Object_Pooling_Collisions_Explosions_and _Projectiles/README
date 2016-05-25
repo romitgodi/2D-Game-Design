@@ -1,0 +1,30 @@
+Name: Romit Godi
+Clemson Email Address: rgodi@clemson.edu
+
+Project no: 5
+Project due date: Nov, 23rd 8:00 am
+
+Project description: The project involves implementing object pooling, collisions, explosions and projectiles.
+
+
+Sprite implementation:
+Background - source: http://www.tophdgallery.com/2d-backgrounds-for-games.html
+Contra - source: http://www.spriters-resource.com/nes/contra/
+Foreground - source: http://hugoware.net/design/game-background
+Clouds - source: http://forums.gamesalad.com/discussion/43406/i-need-help-with-backgrounds
+Fire - source: http://www.spriters-resource.com/nes/contra/
+Bullets - source: http://www.spriters-resource.com/nes/contra/
+
+Requirement summary:
+1. Implemented object pooling by displaying the current and free lists in the HUD.
+2. Health HUD has been added which decreases as the player collides with the fire balls.
+3. Player explodes after health meter goes empty and reappears at the same position.
+4. Restart function added on 'r' key press. Player returns to the start position.
+5. Player can shoot bullets at the fire balls.
+6. Fire balls explode when player shoots bullets at them.
+7. Also implemented GOD mode.
+8. All information is present in a single HUD
+
+In Progress:
+1. Player movement is not smooth while running. Working to resolve this.
+2. Multiple key presses stops movement in certain cases.

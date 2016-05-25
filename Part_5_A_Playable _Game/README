@@ -1,0 +1,38 @@
+Name: Romit Godi
+Clemson Email Address: rgodi@clemson.edu
+
+Project no: 6
+Project due date: Dec, 4th Noon
+
+Project description: The project involves implementing a playable game
+
+Sprite implementation:
+Background - source: http://www.tophdgallery.com/2d-backgrounds-for-games.html
+Contra - source: http://www.spriters-resource.com/nes/contra/
+Enemy - source: http://forum.zdoom.org/viewtopic.php?t=48392
+Foreground - source: http://hugoware.net/design/game-background
+Clouds - source: http://forums.gamesalad.com/discussion/43406/i-need-help-with-backgrounds
+Fire - source: http://www.spriters-resource.com/nes/contra/
+Contra bullets - source: http://www.spriters-resource.com/genesis_32x_scd/contrahc/sheet/47716/
+Enemy bullets - source: http://www.spriters-resource.com/nes/contra/
+
+Requirement summary:
+1. The goal of this game is described in the Gameplay section below.
+2. HUD has been implemented to show all required information for gameplay. It disappears after 3 seconds and will be shown again on press of 'F1' key.
+3. Background music is added to last for the entire duration of the game. Sounds for player and enemy bullets have been added. Explosion sound for fireballs has also been implemented when a player shoots them.
+4. Collision detection has been implemented as per previous project requirement. This feature has been extended to the enemy player in this project.
+5. Explosions has been implemented as per previous project requirement. Fireballs explode when player shoots at them. Both the player and enemy also explode when the health meter is empty.
+6. Projectiles has been implemented in the form of player and enemy bullets.
+7. AI in this game has been implemented for the enemy player. The enemy player changes position when the player shoots at it and moves to a new postion.
+8. GOD mode was already implemented in the previous project. No changes have been made to it.
+9. Restart feature was also implemented in the previous project.
+10. Object pooling has been implemented as per previous project requirement. No changes have been made to it. 
+11. The game reaches a conclusion when either the player defeats the enemy or gets killed by the enemy or the fireballs. In all cases the game ends and restarts.
+12. The game has been tested and found to have no leaks except for already existing one's from the SDL framework.
+
+Gameplay:
+This game is a novice attempt to remake a part of the original Contra developed and published by Konami and which was released as a home version for the Nintendo Entertainment System.
+The goal is to reach the end of the world by avoiding the menacing fireballs falling from the heavens. The player can shoot these fireballs to make way for itself.
+At the end, the player has to fight the enemy who has been designed with AI. The enemy knows the position of the player and switches it's own position on being fired upon by the contra player.
+The game will restart when either the player defeats the enemy or gets killed by the enemy or the fireballs.
+ 

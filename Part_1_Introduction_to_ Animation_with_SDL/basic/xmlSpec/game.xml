@@ -1,0 +1,60 @@
+<?xml version = "1.0"?>
+<GameData>
+<screenTitle>Project #2 Solution</screenTitle>
+<maxStringSize>50</maxStringSize>
+<username>rgodi</username>
+<frameMax>200</frameMax>
+
+<frameCap>60</frameCap>
+<framesAreCapped>true</framesAreCapped>
+
+<view>
+  <width>854</width>
+  <height>480</height>
+</view>
+
+<world>
+  <width>854</width>
+  <height>480</height>
+</world>
+
+<back>
+  <red>255</red>
+  <green>255</green>
+  <blue>255</blue>
+</back>
+
+<font name="font">
+  <file>font/dyslexic-bold.otf</file>
+  <size>16</size>
+  <red>0</red>
+  <green>0</green>
+  <blue>0</blue>
+  <unused>0</unused>
+</font>
+
+<backg>
+  <file>images/backg</file>
+  <srcX>0</srcX>
+  <srcY>0</srcY>
+  <width>854</width>
+  <height>480</height>
+  <startLoc x="0" y="0"/>
+  <speedX>0</speedX>
+  <speedY>0</speedY>
+  <transparency>true</transparency>
+</backg>
+
+<spiral>
+  <file>images/spiral</file>
+  <srcX>0</srcX>
+  <srcY>0</srcY>
+  <width>50</width>
+  <height>50</height>
+  <startLoc x="320" y="240"/>
+  <speedX>175</speedX>
+  <speedY>175</speedY>
+  <transparency>true</transparency>
+</spiral>
+
+</GameData>

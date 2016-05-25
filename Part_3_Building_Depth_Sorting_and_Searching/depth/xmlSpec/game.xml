@@ -1,0 +1,107 @@
+<?xml version = "1.0"?>
+<GameData>
+<!-- screenTitle is also used to identify you and your animation. 
+     So make sure to include your name as part of the screenTitle -->
+<screenTitle>Contra</screenTitle>
+<maxStringSize>50</maxStringSize>
+
+<frameCap>60</frameCap>
+<framesAreCapped>true</framesAreCapped>
+<frameMax>200</frameMax>
+<username>rgodi</username>
+
+<view>
+  <width>854</width>
+  <height>480</height>
+</view>
+
+<world>
+  <width>5000</width>
+  <height>480</height>
+</world>
+
+<clock>
+  <locX>10</locX>
+  <locY>10</locY>
+</clock>
+
+
+<back>
+  <file>images/rgodi.back.bmp</file>
+  <red>193</red>
+  <green>205</green>
+  <blue>205</blue>
+  <factor>3</factor>
+  <srcX>0</srcX>
+  <srcY>0</srcY>
+  <width>854</width>
+  <height>480</height>
+  <transparency>false</transparency>
+</back>
+
+<front>
+  <file>images/rgodi.front.bmp</file>
+  <red>193</red>
+  <green>205</green>
+  <blue>205</blue>
+  <factor>2</factor>
+  <srcX>0</srcX>
+  <srcY>0</srcY>
+  <width>854</width>
+  <height>480</height>
+  <transparency>false</transparency>
+</front>
+
+<cloud>
+  <file>images/rgodi.clouds.bmp</file>
+  <red>193</red>
+  <green>205</green>
+  <blue>205</blue>
+  <factor>1</factor>
+  <srcX>0</srcX>
+  <srcY>0</srcY>
+  <width>854</width>
+  <height>480</height>
+  <transparency>false</transparency>
+</cloud>
+
+<fire>
+  <file>images/rgodi.fire.bmp</file>
+  <srcX>0</srcX>
+  <srcY>0</srcY>
+  <width>40</width>
+  <height>35</height>
+  <startLoc x="0" y="0"/>
+  <speedX>0</speedX>
+  <speedY>100</speedY>
+  <scale min="0.25" max="2.0"/>
+  <count>100</count>
+  <transparency>true</transparency>
+</fire>
+
+<font name="font">
+  <file>font/dyslexic-bold.otf</file>
+  <size>16</size>
+  <red>255</red>
+  <green>255</green>
+  <blue>255</blue>
+  <unused>0</unused>
+</font>
+
+<contra>
+  <file>images/rgodi.contra.bmp</file>
+  <startLoc x="120" y="410"/>
+
+  <frames>9</frames>
+  <frameInterval>20</frameInterval>
+
+  <srcX>0</srcX>
+  <srcY>0</srcY>
+  <width>38</width>
+  <height>50</height>
+  <speedX>0</speedX>
+  <speedY>0</speedY>
+  <transparency>true</transparency>
+</contra>
+
+</GameData>

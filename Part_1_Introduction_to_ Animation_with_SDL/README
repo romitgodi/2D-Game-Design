@@ -1,0 +1,41 @@
+Name: Romit Godi
+Clemson Email Address: rgodi@clemson.edu
+
+Project no: 2
+Project due date: Sept, 25th 8:00 am
+
+Project description:
+This project involved moving multiple sprite objects on the screen. First the IOManager and GameData classes were converted to Meyer's singleton pattern. Then the clock functionality was changed from cpu time to real time. The required information was then printed to the screen.
+
+
+
+How you made your sprites:
+The sprite object and the background were designed using Inkscape.
+
+
+
+
+
+
+
+
+
+--------------------------------
+| Clock         |              |
+--------------------------------
+| Sprites       |              |
+--------------------------------
+| Singleton     |              |
+--------------------------------
+| game.xml      |              |
+--------------------------------
+| Leaks         |              |
+--------------------------------
+| F4/frames     |              |
+--------------------------------
+| Submission    |              |
+--------------------------------
+| README        |              |
+--------------------------------
+
+
