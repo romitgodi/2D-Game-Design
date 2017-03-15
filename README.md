@@ -11,6 +11,7 @@ The game will restart when either the player defeats the enemy or gets killed by
 * The final version of the game is in the folder named Part_5_Playable_Game
 * Download this folder, compile the Makefile in the linux command promt and run the game
 * A demo video introducing the features of the game is also present in this folder
+* Rename the file rgodi.gameplay to vlc or mp4 format to play the video
 
 ### Who do I talk to? ###
 
